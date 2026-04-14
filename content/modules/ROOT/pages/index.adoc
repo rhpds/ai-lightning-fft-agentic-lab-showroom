@@ -1,8 +1,22 @@
-= AI Lightning Labs - Factory Floor Tycoon Agentic Lab
+= Factory Floor Tycoon Demo
 
-Welcome to the AI Lightning Labs - Factory Floor Tycoon Agentic Lab workshop.
+Welcome to the Factory Floor Tycoon Agentic AI Demo documentation.
 
-== Modules
+== Overview
 
-* xref:module-01.adoc[Module 1: TBD]
-* xref:module-02.adoc[Module 2: TBD]
+This demo showcases agentic AI in action through a competitive factory simulation powered by Red Hat OpenShift AI.
+
+== Quick Start
+
+Get started by reading the xref:01-guide.adoc[complete guide].
+
+== What You'll Learn
+
+* What agentic AI is and how it differs from traditional AI
+* How AI agents autonomously make decisions
+* Real-world applications powered by Red Hat OpenShift AI
+* Strategies for designing effective AI agents
+
+---
+
+_Powered by Red Hat OpenShift AI_
