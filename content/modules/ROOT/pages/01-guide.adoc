@@ -7,6 +7,8 @@
 
 This demo shows *agentic AI* in action through a competitive factory simulation. AI agents autonomously manage resources, make decisions, and respond to events, all powered by Large Language Models running on Red Hat OpenShift AI.
 
+The live hosted version can be found at: https://red.ht/factory-floor[Factory Floor Tycoon Demo^]
+
 === What is Agentic AI?
 
 *Agentic AI* refers to AI systems that can autonomously pursue goals and take actions without constant human intervention.
