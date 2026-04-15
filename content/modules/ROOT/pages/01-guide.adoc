@@ -579,7 +579,7 @@ This demo is powered by Red Hat OpenShift AI Model As A Service (MAAS), which pr
 * Mistral AI Model Documentation: https://docs.mistral.ai/
 * FastAPI WebSocket Guide: https://fastapi.tiangolo.com/advanced/websockets/
 * Agentic AI Design Patterns: https://www.anthropic.com/research/building-effective-agents
-* GitHub Repository (Source Code): https://github.com/soyr-redhat/factory-floor-tycoon-agentic-demo
+* GitHub Repository (Source Code): https://github.com/rhai-code/factory-floor-tycoon-agentic-demo
 
 ---
 
