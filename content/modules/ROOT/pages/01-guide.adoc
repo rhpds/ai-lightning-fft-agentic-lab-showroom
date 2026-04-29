@@ -9,6 +9,8 @@
 *Want to jump right in?* The simulation at https://red.ht/factory-floor[red.ht/factory-floor^] includes all the instructions you need to play.
 
 This guide is for those who want a **deeper dive** into what's happening behind the scenes—the concepts, strategies, and real-world applications of agentic AI.
+
+*Tip:* You can view this guide and the simulation side-by-side if desired.
 ====
 
 == What You're Seeing
