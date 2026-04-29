@@ -1,13 +1,19 @@
-= Factory Floor Tycoon: Agentic AI Demo
+= Factory Floor Tycoon: Workshop Guide
 :stylesheet: redhat-theme.css
 :source-highlighter: highlight.js
 :icons: font
+:imagesdir: ../images
+
+[NOTE]
+====
+*Want to jump right in?* The simulation at https://red.ht/factory-floor[red.ht/factory-floor^] includes all the instructions you need to play.
+
+This guide is for those who want a **deeper dive** into what's happening behind the scenes—the concepts, strategies, and real-world applications of agentic AI.
+====
 
 == What You're Seeing
 
-This demo shows *agentic AI* in action through a competitive factory simulation. AI agents autonomously manage resources, make decisions, and respond to events, all powered by Large Language Models running on Red Hat OpenShift AI.
-
-The live hosted version can be found at: https://red.ht/factory-floor[Factory Floor Tycoon Demo^]
+AI agents compete to maximize profit in a factory simulation. Each agent autonomously manages resources, makes decisions, and responds to random events—all powered by Large Language Models running on Red Hat AI.
 
 === What is Agentic AI?
 
@@ -34,7 +40,7 @@ The live hosted version can be found at: https://red.ht/factory-floor[Factory Fl
 |Adapts to changing circumstances
 |===
 
-In this demo, you give an AI agent a system prompt defining its strategy, then watch it autonomously run a factory, making dozens of decisions based on its goals, the current state, and random events.
+In this workshop, you give an AI agent a system prompt defining its strategy, then watch it autonomously run a factory, making dozens of decisions based on its goals, the current state, and random events.
 
 === The Goal
 
@@ -60,9 +66,9 @@ The agent makes all these decisions on its own. You just define the strategy thr
 
 All reasoning is visible in real-time. You can see exactly why the agent chose each action.
 
-=== Powered by Red Hat OpenShift AI
+=== Powered by Red Hat AI
 
-The AI agents run on *Mistral-Small-24B-W8A8* served through Red Hat OpenShift AI Model As A Service (MAAS):
+The AI agents run on *Mistral-Small-24B-W8A8* served through Red Hat AI Model As A Service (MAAS):
 
 * Scalable model serving for multiple concurrent agents
 * Low latency inference (~2-3 seconds per decision)
@@ -197,7 +203,7 @@ The factory environment is unpredictable! Events occur randomly and require agen
 
 == Preset Agent Strategies
 
-The demo includes five pre-configured strategies that demonstrate different approaches to the same goal. Watching these compete reveals how system prompts shape behavior:
+The simulation includes five pre-configured strategies that demonstrate different approaches to the same goal. Watching these compete reveals how system prompts shape behavior:
 
 === Aggressive Producer
 
@@ -563,9 +569,9 @@ The concepts demonstrated in this lab apply to production AI systems:
 * Escalation decision-making
 * Proactive issue detection
 
-=== The Role of Red Hat OpenShift AI
+=== The Role of Red Hat AI
 
-This demo is powered by Red Hat OpenShift AI Model As A Service (MAAS), which provides:
+This workshop is powered by Red Hat AI Model As A Service (MAAS), which provides:
 
 * *Scalable Model Serving:* The Mistral-Small-24B model serves multiple concurrent agents
 * *Low Latency Inference:* Fast response times enable real-time decision-making
@@ -575,7 +581,7 @@ This demo is powered by Red Hat OpenShift AI Model As A Service (MAAS), which pr
 
 == Additional Resources
 
-* Red Hat OpenShift AI Documentation: https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed
+* Red Hat AI Documentation: https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed
 * Mistral AI Model Documentation: https://docs.mistral.ai/
 * FastAPI WebSocket Guide: https://fastapi.tiangolo.com/advanced/websockets/
 * Agentic AI Design Patterns: https://www.anthropic.com/research/building-effective-agents
@@ -583,4 +589,4 @@ This demo is powered by Red Hat OpenShift AI Model As A Service (MAAS), which pr
 
 ---
 
-_Factory Floor Tycoon v1.1.0 | Powered by Red Hat OpenShift AI_
+_Factory Floor Tycoon v1.1.0 | Powered by Red Hat AI_
